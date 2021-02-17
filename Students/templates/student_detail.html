@@ -1,0 +1,25 @@
+
+
+<button><a href="{% url 'export_CSV_students' %}">Export Roster CSV</a></button>
+
+<!--placeholding breaks-->
+<br>
+<br>
+<br>
+<!--placeholding breaks-->
+
+
+{{ object.id }}
+{{ object.name }}
+{{ object.age }}
+
+{{ object.instructor }}
+
+
+
+<form action="{% url 'student_detail' object.id %}" method="POST">
+{{ form }}
+{% csrf_token %}
+    <input type="submit" value="REVIEW">
+
+</form>

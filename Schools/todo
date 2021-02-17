@@ -1,0 +1,26 @@
+Git push
+
+
+    backend
+install git (not production version)
+corect teachers slug
+
+
+    does forieng key need to be primary key of table calling it
+    student review form on student detail view by pk
+    Create Student List View
+
+    Create Student set get absolute url, Detail View Age Grade, Teacher Name
+    Creat Student review form tie to grade and textfield.
+
+    table StudentBehavior #only reviewable by that students teacher
+    student (forieng key) Teacher, Students
+    behaviorGrade
+    behaviorNotes
+
+
+
+
+
+    frontend
+set front end picture size

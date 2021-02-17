@@ -1,0 +1,5 @@
+ {% for student in object_list %}
+
+<a href="{{ student.get_absolute_url }} "> {{ student.name }} </a>
+
+{% endfor %}

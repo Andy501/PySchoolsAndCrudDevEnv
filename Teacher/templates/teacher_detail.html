@@ -1,0 +1,7 @@
+{% load static %}
+<h2>{{ object.name }}</h2>
+<img src="{{ object.photo.url }}" alt="Teacher's Photo">
+<p>{{ object.bio }}</p>
+
+
+<h3><a href="{% url 'teacher_list' %}">Back</a></h3>
